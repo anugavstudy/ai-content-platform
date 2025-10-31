@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+:root {
+	/* Palette from user: */
+	/* Darkened palette for a deeper aesthetic */
+			--color-very-dark: #1f2933; /* darker grey background */
+	--color-deep-1: #024b46; /* slightly darker deep green */
+	--color-deep-2: #016f63; /* accent green */
+	--color-muted: #BFBFBF;
+	--surface: #035951; /* fallback surface */
+}

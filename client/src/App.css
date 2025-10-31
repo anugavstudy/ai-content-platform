@@ -1,0 +1,37 @@
+:root {
+  --app-bg: var(--color-very-dark);
+  --app-panel: var(--color-deep-1);
+  --app-accent: var(--color-deep-2);
+  --app-muted: var(--color-muted);
+}
+
+body {
+  background-color: var(--app-bg);
+  color: var(--app-muted);
+}
+
+/* Panel style used for textareas and output card */
+.panel {
+  /* darker, lower-contrast panels for a deep aesthetic */
+  background: rgba(0,0,0,0.48); /* darker translucent panel */
+  border: 1px solid rgba(255,255,255,0.08); /* stronger, visible border */
+  color: var(--app-muted);
+  border-radius: 10px;
+  padding: 12px;
+}
+
+.app-root {
+  color: var(--app-muted);
+}
+
+/* Input box (textarea) should be white with visible border and 10px radius, and expand with content */
+.input-box {
+  background: #ffffff;
+  color: #111111;
+  border: 1px solid rgba(0,0,0,0.12);
+  border-radius: 10px;
+  box-shadow: none;
+  min-height: 120px;
+  resize: vertical;
+  overflow: hidden; /* used with auto-resize JS */
+}
